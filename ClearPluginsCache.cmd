@@ -1,5 +1,5 @@
 @echo off
-@setlocal
+setlocal
 :: This batch file cleares the plugins cache
 
 call :clear "hkcu\software\far2\pluginscache"
